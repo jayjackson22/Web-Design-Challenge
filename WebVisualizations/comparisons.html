@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Visualizations</title>
+        <title>Latitude vs. Max Temperature</title>
         <link rel="stylesheet" href="style.css">        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -12,7 +12,7 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Web-Design-Challenge</a>
+                <a class="navbar-brand" href="index.html">Latitude vs Weather</a>
             </div>
             <ul class="nav navbar-nav navbar-right navbar-collapse">
                 <li class="dropdown">
@@ -30,25 +30,44 @@
             </ul>
             </div>
         </nav>
-    <!--End Navigation Bar-->
-    <!--Links to Visualization Pages-->
-        <div class="row">
-            <div class="col-md-3">
-                <ul>
-                    <li><a href="visualization1.html">Temperature</a></li>
-                    <li><a href="visualization2.html">Humidity</a></li>
-                    <li><a href="visualization3.html">Cloudiness</a></li>
-                    <li><a href="visualization4.html">Wind Speed</a></li>
-                </ul>
-            </div>
-    <!--End Links to Visualization Pages-->
-    <!--Explanation of the project-->
-            <div class="col-md-9">
+        <div class="col-md-12">
+            <div class="row">
+                <h1>
+                    Comparison: Latitude vs X
+                </h1>
                 <p>
-                    Welcome to the Comparisons Page!
+                    Click on any plot for an analysis
                 </p>
             </div>
-            <div class="col-md-2"></div>
-        </div>     
+            <div class="row">
+                <div class="col-md-6">
+                    <center>
+                        <b>vs. Max Temperature</b>
+                    </center>
+                    <a href="visualization1.html"><img class="img-fluid" src="Resources\assets\images\Fig1.png" width=100%></a>
+                </div>
+                <div class="col-md-6">
+                    <center>
+                        <b>vs. Humidity</b>
+                    </center>
+                    <a href="visualization2.html"><img class="img-fluid" src="Resources\assets\images\Fig2.png" width=100%></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <center>
+                        <b>vs. Cloudiness</b>
+                    </center>
+                    <a href="visualization3.html"><img class="img-fluid" src="Resources\assets\images\Fig3.png" width=100%></a>
+                </div>
+                <div class="col-md-6">
+                    <center>
+                        <b>vs. Wind Speed</b>
+                    </center>
+                    <a href="visualization4.html"><img class="img-fluid" src="Resources\assets\images\Fig4.png" width=100%></a>
+                </div>
+            </div>
+            </div>
+        </div>
     </body>
 </html>
